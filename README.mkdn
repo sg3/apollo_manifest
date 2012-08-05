@@ -24,6 +24,7 @@ After you're done with syncing, type
     ./build.sh build
 
 For building.
+
 All the supported commands can be viewed by typing
 
     ./build.sh help

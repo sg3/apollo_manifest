@@ -11,12 +11,12 @@
            remote="github"
            sync-j="1" />
 
-  <project path="manifest" name="sg3/apollo_manifest" />
+  <project path="manifest" name="sg3/apollo_manifest" revision="master" />
 
-  <project path="buildscripts" name="sg3/buildscripts">
+  <project path="buildscripts" name="sg3/buildscripts" revision="master" >
     <copyfile src="build.sh" dest="build.sh" />
   </project>
-  <project path="initramfs" name="sg3/initramfs_s5p6442" />
+  <project path="initramfs" name="sg3/initramfs_s5p6442" revision="master" />
   <project path="kernel" name="sg3/android_kernel_samsung_s5p6442" revision="s5p6442-3.4" />
 
 </manifest>
