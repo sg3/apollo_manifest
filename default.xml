@@ -13,6 +13,7 @@
 
   <project path="manifest" name="sg3/apollo_manifest" />
 
+  <project path="buildscripts" name="sg3/buildscripts" />
   <project path="initramfs" name="sg3/initramfs_s5p6442" />
   <project path="kernel" name="sg3/android_kernel_samsung_s5p6442" revision="s5p6442-3.4" />
 
