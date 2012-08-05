@@ -1,0 +1,29 @@
+SG3
+===========
+
+Getting Started
+---------------
+
+To get started with this, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository using the sg3 trees, use a command like this:
+
+    repo init -u git://github.com/sg3/apollo_manifest.git
+
+Then to sync up:
+
+    repo sync
+
+
+Building
+--------
+
+After you're done with syncing, type
+
+    ./build.sh build
+
+For building.
+All the supported commands can be viewed by typing
+
+    ./build.sh help
